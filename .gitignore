@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境：绝对不要提交，别人用 requirements.txt 自己装
+.venv/
+venv/
+env/
+
+# 测试与覆盖率产物
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# 数据库文件（本地数据，每个人自己生成）
+*.db
+*.sqlite
+*.sqlite3
+
+# 环境变量文件（可能含密码，绝不能提交）
+.env
+.env.*
+!.env.example
+
+# 编辑器
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Private/local state and build output (publication hygiene)
+.env
+.env.*
+!.env.example
+!.env.sample
+**/private/
+**/owner_private/
+**/node_modules/
+**/.venv/
+**/__pycache__/
+**/build/
+**/dist/
+**/output/
+**/data/
+**/uploads/
+*.log
+*.sqlite*
+*.db
+*.pem
+*.key
+*.jks
+*.keystore
+*.p12
+*.pfx
+**/local.properties
+**/keystore.properties
+**/key.properties
